@@ -21,7 +21,6 @@ yarn-error.log
 /.idea
 /.vscode
 database/database.sqlite
-composer.lock
 
 # Custom-related files
 *[cC]ustom*
