@@ -33,9 +33,6 @@ app/Console/Commands/Test.php
 public/theme
 !public/theme/default/
 !public/theme/starter/
-resources/views/frontend/theme
-!resources/views/frontend/theme/default/
-!resources/views/frontend/theme/starter/
 config/theme
 !config/theme/default/
 !config/theme/starter/
