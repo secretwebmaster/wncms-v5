@@ -30,6 +30,9 @@ storage/installed
 app/Console/Commands/Test.php
 
 # Theme files
+lang
+!lang/*/default.php
+!lang/*/starter.php
 public/theme
 !public/theme/default/
 !public/theme/starter/
