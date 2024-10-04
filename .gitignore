@@ -34,11 +34,7 @@ lang
 !lang/*/default.php
 !lang/*/starter.php
 public/theme
-!public/theme/default/
-!public/theme/starter/
 config/theme
-!config/theme/default/
-!config/theme/starter/
 
 #dev
 .code-workspace
