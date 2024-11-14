@@ -3569,16 +3569,16 @@
         },
         {
             "name": "secretwebmaster/wncms-core",
-            "version": "v0.3.1",
+            "version": "v0.3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/secretwebmaster/wncms-core.git",
-                "reference": "7c9739823e0eb659a28be76308e9f538c79ff41e"
+                "reference": "f4d8132a85bcf64d22060c37a58c835a2d3125d1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/secretwebmaster/wncms-core/zipball/7c9739823e0eb659a28be76308e9f538c79ff41e",
-                "reference": "7c9739823e0eb659a28be76308e9f538c79ff41e",
+                "url": "https://api.github.com/repos/secretwebmaster/wncms-core/zipball/f4d8132a85bcf64d22060c37a58c835a2d3125d1",
+                "reference": "f4d8132a85bcf64d22060c37a58c835a2d3125d1",
                 "shasum": ""
             },
             "require": {
@@ -3637,9 +3637,9 @@
             "description": "Wncms core package",
             "support": {
                 "issues": "https://github.com/secretwebmaster/wncms-core/issues",
-                "source": "https://github.com/secretwebmaster/wncms-core/tree/v0.3.1"
+                "source": "https://github.com/secretwebmaster/wncms-core/tree/v0.3.2"
             },
-            "time": "2024-11-14T18:13:07+00:00"
+            "time": "2024-11-14T19:11:28+00:00"
         },
         {
             "name": "secretwebmaster/wncms-tags",
