@@ -4,14 +4,15 @@
     "description": "Wncms is one of the best CMS in the world.",
     "keywords": [
         "wncms",
-        "WNCMS"
+        "secretwebmaster",
+        "cms"
     ],
     "license": "MIT",
     "require": {
         "php": "^8.2",
-        "laravel\/framework": "^11.9",
+        "laravel\/framework": "^11.31",
         "laravel\/tinker": "^2.9",
-        "secretwebmaster\/wncms-core": "^0.3.0"
+        "secretwebmaster\/wncms-core": "*"
     },
     "autoload": {
         "psr-4": {
