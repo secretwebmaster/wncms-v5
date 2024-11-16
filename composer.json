@@ -30,10 +30,9 @@
         "post-autoload-dump": [
             "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
             "@php artisan package:discover --ansi",
-            "@php artisan vendor:publish --tag=wncms-system-config --ansi",
-            "@php artisan vendor:publish --tag=wncms-theme-config --ansi",
-            "@php artisan vendor:publish --tag=wncms-core-assets --ansi",
-            "@php artisan vendor:publish --tag=wncms-theme-assets --ansi"
+            "@php artisan vendor:publish --tag=wncms-theme-config --ansi --force",
+            "@php artisan vendor:publish --tag=wncms-core-assets --ansi --force",
+            "@php artisan vendor:publish --tag=wncms-theme-assets --ansi --force"
         ],
         "post-root-package-install": [
             "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
