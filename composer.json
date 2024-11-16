@@ -32,7 +32,8 @@
             "@php artisan package:discover --ansi",
             "@php artisan vendor:publish --tag=wncms-theme-config --ansi --force",
             "@php artisan vendor:publish --tag=wncms-core-assets --ansi --force",
-            "@php artisan vendor:publish --tag=wncms-theme-assets --ansi --force"
+            "@php artisan vendor:publish --tag=wncms-theme-assets --ansi --force",
+            "@php artisan wncms:update"
         ],
         "post-root-package-install": [
             "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
