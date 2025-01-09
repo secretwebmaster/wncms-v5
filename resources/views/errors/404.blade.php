@@ -1,33 +1,37 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>404 Not Found</title>
-    <link rel="stylesheet" href="{{ asset('css/app.css') }}"> <!-- Optional: Include your CSS -->
-    <style>
-        body {
-            text-align: center;
-            padding: 150px;
-        }
-        h1 {
-            font-size: 50px;
-        }
-        body {
-            font: 20px Helvetica, sans-serif;
-            color: #333;
-        }
-        .container {
-            max-width: 600px;
-            margin: auto;
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <h1>404 Not Found</h1>
-        <p>Sorry, the page you are looking for could not be found.</p>
-        <a href="{{ url('/') }}">Go to Homepage</a>
+@if(false)
+<script>
+    window.location.href = "{{ route('frontend.pages.home') }}";
+</script>
+@else
+    @extends('layouts.error')
+
+    @section('content')
+
+    <div class="d-flex flex-column flex-root" id="kt_app_root">
+
+        <div class="d-flex flex-column flex-center flex-column-fluid">
+            <div class="d-flex flex-column flex-center text-center p-10">
+                <div class="card card-flush py-5">
+                    <div class="card-body">
+                        {{-- message for 404 error --}}
+                        <h1 class="fw-bolder fs-1 text-gray-900 mb-4">Error 404</h1>
+                        <div>
+                            <p class="text-gray-700 fs-4">@lang('wncms::word.error_404_message')</p>
+                        </div>
+                        @if(!empty($exception))
+                        <div class="alert alert-danger">
+                            {{ $exception->getMessage() }}
+                        </div>
+                        @endif
+                        <div class="mb-0">
+                            <a href="{{ route('frontend.pages.home') }}" class="btn btn-sm btn-dark">@lang('wncms::word.return_home')</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-</body>
-</html>
+
+
+    @endsection
+@endif

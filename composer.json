@@ -12,7 +12,7 @@
         "php": "^8.2",
         "laravel\/framework": "^11.31",
         "laravel\/tinker": "^2.9",
-        "secretwebmaster\/wncms-core": "*"
+        "secretwebmaster\/wncms-core": "^0.4.4"
     },
     "autoload": {
         "psr-4": {
@@ -32,7 +32,9 @@
             "@php artisan package:discover --ansi",
             "@php artisan vendor:publish --tag=wncms-theme-config --ansi --force",
             "@php artisan vendor:publish --tag=wncms-core-assets --ansi --force",
-            "@php artisan vendor:publish --tag=wncms-theme-assets --ansi --force",
+            "@php artisan vendor:publish --tag=wncms-theme-assets --ansi --force"
+        ],
+        "post-update-cmd": [
             "@php artisan wncms:update"
         ],
         "post-root-package-install": [
