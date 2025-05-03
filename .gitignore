@@ -22,11 +22,6 @@ yarn-error.log
 /.vscode
 database/database.sqlite
 
-# Allow the SQL dump
-!storage/app/
-!storage/app/installer/
-!storage/app/installer/wncms.sql
-
 # Custom-related files
 *[cC]ustom*
 */vendors
