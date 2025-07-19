@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d911dd1a5f293ad5c86b2af036717f6e",
+    "content-hash": "ea9a33f44adabb98329adad9b6f26c7b",
     "packages": [
         {
             "name": "barryvdh/laravel-debugbar",
@@ -4039,16 +4039,16 @@
         },
         {
             "name": "secretwebmaster/wncms-core",
-            "version": "v5.4.2",
+            "version": "v5.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/secretwebmaster/wncms-core.git",
-                "reference": "e9cc75e531485b359717b51ce3d556c85480897b"
+                "reference": "1edffc37ab7fcbcb045239811cff74a830ed8d57"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/secretwebmaster/wncms-core/zipball/e9cc75e531485b359717b51ce3d556c85480897b",
-                "reference": "e9cc75e531485b359717b51ce3d556c85480897b",
+                "url": "https://api.github.com/repos/secretwebmaster/wncms-core/zipball/1edffc37ab7fcbcb045239811cff74a830ed8d57",
+                "reference": "1edffc37ab7fcbcb045239811cff74a830ed8d57",
                 "shasum": ""
             },
             "require": {
@@ -4116,9 +4116,9 @@
             ],
             "support": {
                 "issues": "https://github.com/secretwebmaster/wncms-core/issues",
-                "source": "https://github.com/secretwebmaster/wncms-core/tree/v5.4.2"
+                "source": "https://github.com/secretwebmaster/wncms-core/tree/v5.5.0"
             },
-            "time": "2025-05-03T17:45:24+00:00"
+            "time": "2025-07-17T09:31:59+00:00"
         },
         {
             "name": "secretwebmaster/wncms-tags",
