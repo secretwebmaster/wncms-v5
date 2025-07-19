@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d0aeeed72ea7c9eab04f220f1949b773",
+    "content-hash": "9a08c697a0749a02578017ea1b77b971",
     "packages": [
         {
             "name": "barryvdh/laravel-debugbar",
@@ -4024,16 +4024,16 @@
         },
         {
             "name": "secretwebmaster/wncms-core",
-            "version": "v5.5.1",
+            "version": "v5.5.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/secretwebmaster/wncms-core.git",
-                "reference": "82094d9169ee67c04029e7ff47e914daf1ffd99b"
+                "reference": "300c8cf86d70846dcaeb45dd22727814ea5eb2cf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/secretwebmaster/wncms-core/zipball/82094d9169ee67c04029e7ff47e914daf1ffd99b",
-                "reference": "82094d9169ee67c04029e7ff47e914daf1ffd99b",
+                "url": "https://api.github.com/repos/secretwebmaster/wncms-core/zipball/300c8cf86d70846dcaeb45dd22727814ea5eb2cf",
+                "reference": "300c8cf86d70846dcaeb45dd22727814ea5eb2cf",
                 "shasum": ""
             },
             "require": {
@@ -4044,7 +4044,7 @@
                 "laravel/tinker": "^2.9",
                 "mcamara/laravel-localization": "*",
                 "php": "^8.2",
-                "secretwebmaster/wncms-tags": "^1.6.0",
+                "secretwebmaster/wncms-tags": "^1.6.1",
                 "secretwebmaster/wncms-translatable": "^1.2.6",
                 "spatie/laravel-activitylog": "^4.8",
                 "spatie/laravel-medialibrary": "^11.9",
@@ -4101,22 +4101,22 @@
             ],
             "support": {
                 "issues": "https://github.com/secretwebmaster/wncms-core/issues",
-                "source": "https://github.com/secretwebmaster/wncms-core/tree/v5.5.1"
+                "source": "https://github.com/secretwebmaster/wncms-core/tree/v5.5.2"
             },
-            "time": "2025-07-19T19:18:14+00:00"
+            "time": "2025-07-19T19:32:31+00:00"
         },
         {
             "name": "secretwebmaster/wncms-tags",
-            "version": "v1.6.0",
+            "version": "v1.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/secretwebmaster/wncms-tags.git",
-                "reference": "f4b49bd88c3a7d4a3f91039992d96bf82064d51f"
+                "reference": "8e5ae238757dd4e11f76c2e99695399ea7f2038b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/secretwebmaster/wncms-tags/zipball/f4b49bd88c3a7d4a3f91039992d96bf82064d51f",
-                "reference": "f4b49bd88c3a7d4a3f91039992d96bf82064d51f",
+                "url": "https://api.github.com/repos/secretwebmaster/wncms-tags/zipball/8e5ae238757dd4e11f76c2e99695399ea7f2038b",
+                "reference": "8e5ae238757dd4e11f76c2e99695399ea7f2038b",
                 "shasum": ""
             },
             "require": {
@@ -4164,9 +4164,9 @@
             ],
             "support": {
                 "issues": "https://github.com/secretwebmaster/wncms-tags/issues",
-                "source": "https://github.com/secretwebmaster/wncms-tags/tree/v1.6.0"
+                "source": "https://github.com/secretwebmaster/wncms-tags/tree/v1.6.1"
             },
-            "time": "2025-07-19T19:14:17+00:00"
+            "time": "2025-07-19T19:28:52+00:00"
         },
         {
             "name": "secretwebmaster/wncms-translatable",
