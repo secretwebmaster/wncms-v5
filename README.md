@@ -4,7 +4,35 @@ Demo: [demo.wncms.cc](https://demo.wncms.cc)
 
 ## 更新日誌
 
-### v5.5.3 2025-07-xx
+### v5.5.5 2025-09-08
+
+-   更新 AdvertisementManager，繼承 ModelManager
+-   移除重複的翻譯 migration 檔案
+-   修正找不到 Advertisement 與網站的關聯問題
+-   在 PageController 載入前端主題 helpers
+-   將 HasTags trait 移至基礎 WncmsModel（所有模型皆可被標籤化）
+-   移除多餘的 OwnModelTrait 與 WnModelTrait
+-   移除 ExtraAttribute，改用 laravel-optionable 套件
+-   後台新增工具頁面
+-   在 @simonwep/pickr 套件加入多語系化
+-   重構所有控制器中的 view()，改為使用 wncms()->view()
+-   在 Advertisement 模型中新增 contact 欄位
+-   新增建立 Tag 模型的 API
+-   新增 HasComments trait
+-   在後台 Post 顯示評論清單
+-   重寫前台 PostController 以符合最新格式
+-   修復後台權限編輯頁錯誤
+-   預備後台 UI 以支援 API 使用日誌
+
+### v5.5.4 2025-08-18
+
+-   修復標籤保存時的翻譯問題，更新依賴 **wncms-translatable**
+-   修復 **UserController** 中多處驗證與資料傳遞問題（`profile` 頁面 `$user` 未傳遞、密碼驗證規則與訊息錯誤、`withError()` 使用錯誤、`profile` 更新程式優化）
+-   修復部分站群模式的問題
+-   更新 **Controller stub** 檔案以符合新結構
+-   修復後台控制器路由錯誤
+
+### v5.5.3 2025-08-17
 
 -   修復提交 Checkbox 會送出 NULL 值的問題
 -   Beta 版本多模組站群相容性適配
